@@ -43,10 +43,12 @@ h1{
     overflow: hidden;
 }
 
-section{
+.portfolio{
 	background-color: #c5c0c07a;
-	grid-row-gap: 10px;
-
+	padding-block-start: 12px;
+	padding-block-end: 12px;
+	padding-left: 26px;
+	padding-right: 26px;
 }
 
 .image{
@@ -54,8 +56,9 @@ section{
 	max-width: 100%;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	display: inline-block;
+	float: left;
 	border: 1px solid #c5c0c07a;
-	grid-template-columns: auto auto auto;
-	margin-left: 10px;
+	background-color: inherit;
+	margin-top: 15px;
+
 }
