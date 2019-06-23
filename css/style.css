@@ -34,7 +34,7 @@ h3,p{
 }
 
 h1{
-    text-align: center;
+	text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
     font-family: cursive;
@@ -59,14 +59,3 @@ section{
 	grid-template-columns: auto auto auto;
 	margin-left: 10px;
 }
-/*.image{
-	margin-left: 8.5px;
-	width: 32%;
-	border: 1px solid black;
-	background-repeat: no-repeat;
-	overflow: hidden;
-	display: inline-block;
-    grid-template-columns: auto auto auto;
-    height: auto;
-
-}*/
